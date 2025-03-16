@@ -9,8 +9,31 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>选择有时候比努力更重要</description>
-    <pubDate>Mon, 25 Sep 2023 16:00:00 GMT</pubDate>
+    <pubDate>Sat, 30 Sep 2023 16:00:00 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>SRE理念：SRE到底是什么？我们应该怎么来理解它？</title>
+      <link>http://example.com/2023/10/01/SRE%E7%90%86%E5%BF%B5/</link>
+      <guid>http://example.com/2023/10/01/SRE%E7%90%86%E5%BF%B5/</guid>
+      <pubDate>Sat, 30 Sep 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;最早讨论 SRE 来源于 Google 这本书《Site Reliability Engineering: How Google Runs Production Systems》。由 Google SRE 关键成员分享他们是如何对软件进行生命周期的整体性关注，以及为什么这样做能够帮助 Google 成功地构建、部署、监控和运维世界上现存最大的软件系统。书的豆瓣 [链接]：(&lt;a href=&quot;https://book.douban.com/subject/26875239/&quot;&gt;https://book.douban.com/subject/26875239/&lt;/a&gt;)&lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<p>最早讨论 SRE 来源于 Google 这本书《Site Reliability Engineering: How Google Runs Production Systems》。由 Google SRE 关键成员分享他们是如何对软件进行生命周期的整体性关注，以及为什么这样做能够帮助 Google 成功地构建、部署、监控和运维世界上现存最大的软件系统。书的豆瓣 [链接]：(<a href="https://book.douban.com/subject/26875239/">https://book.douban.com/subject/26875239/</a>)</p><span id="more"></span><p>从 wikipedia: 中可了解到 SRE 的定义：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Site reliability engineering (SRE) is a discipline that incorporates aspects of software engineering and applies them to infrastructure and operations problems. The main goals are to create scalable and highly reliable software systems.</span><br></pre></td></tr></table></figure><p>其中有句形象描述 SRE 工作的描述：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SRE is &quot;what happens when a software engineer is tasked with what used to be called operations.&quot;</span><br></pre></td></tr></table></figure><p>即 SRE 的目标是构建可扩展和高可用的软件系统，通过软件工程的方法解决基础设施和操作相关的问题。<br>在 Google SRE 书中，对 SRE 日常工作状态有个准确的描述：至多 50% 的时间精力处理操作相关事宜，50% 以上的精力通过软件工程保障基础设施的稳定性和可扩展性。<br>站在管理者的视角： SRE 就是一个岗位，而且是一个具备全栈能力的岗位，只要有这么一个人，他就能解决所有稳定性问题；站在运维人员的角度：认为做好 SRE 主要是做好监控，做到快速发现问题、快速解决问题；还有人站在平台的角度，认为做好 SRE 要加强容量规划，学习 Google 做到完全自动化的弹性伸缩；甚至还有人认为，SRE 就是传统运维的升级版，把运维自动化做好就行了。其实不同的人站在不同的角度，对 SRE 的理解就会天差地别，但是好像又都有各自的道理。<br>我们需要从全局的角度去理解 SRE。SRE 一定是靠整个技术和组织体系发挥作用的，单纯从某个技术点或环节出发，都无法呈现出效果，也就是说 SRE 一定要从全局考虑，体系一定要“配套”。总的来说SRE 是个体系化工程，我们通过构建 SRE 这样一套体系来保证系统稳定性。</p>]]></content:encoded>
+      
+      
+      <category domain="http://example.com/categories/SRE/">SRE</category>
+      
+      
+      <category domain="http://example.com/tags/SRE/">SRE</category>
+      
+      
+      <comments>http://example.com/2023/10/01/SRE%E7%90%86%E5%BF%B5/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>康复心得四：私立康复机构如何选择</title>
